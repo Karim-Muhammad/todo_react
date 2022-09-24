@@ -1,0 +1,67 @@
+body {
+  background-color: #4555A1;
+}
+.App {
+  padding: 100px 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container h2 {
+  font-size: 34px;
+  color: aliceblue;
+}
+
+.container .content {}
+
+.container .content table{
+  margin: auto;
+}
+
+table th, table td {
+  padding: 6px 0;
+}
+
+.container .content table thead {}
+
+.container .content table thead th {
+  background-color: #22AFF3;
+  color: #fff
+}
+.container .content table tbody td {
+  background-color: aliceblue;
+  color: #22AFF3;
+}
+
+.container .content table tfoot input {
+  height: 100%;
+  border: none;
+  padding: 6px;
+}
+input::placeholder, input[type=submit] {
+  text-transform: capitalize;
+}
+input[type=submit] {
+  background-color: #22AFF3;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer
+}
+input[type=submit]:hover {
+  opacity: 0.85;
+}
